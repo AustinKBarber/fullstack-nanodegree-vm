@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="restaurantmenu.db" uuid="272b10ef-ba04-443a-ae42-ef60ebd2db1a">
+    <data-source name="restaurantmenu.db [2]" uuid="fe1f2507-1305-4ea9-bb82-e06316a3402c">
       <database-info product="SQLite" version="3.16.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>

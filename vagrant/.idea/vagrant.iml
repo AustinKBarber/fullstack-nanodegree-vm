@@ -3,6 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/oauth" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.vagrant" />
+      <excludeFolder url="file://$MODULE_DIR$/catalog" />
+      <excludeFolder url="file://$MODULE_DIR$/forum" />
+      <excludeFolder url="file://$MODULE_DIR$/nano-backend-projects" />
+      <excludeFolder url="file://$MODULE_DIR$/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/tournament" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7.13 (C:\Python27\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -13,6 +20,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/oauth/templates" />
       </list>
     </option>
   </component>
