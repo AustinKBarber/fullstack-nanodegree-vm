@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oauth/client_secret.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vagrant.iml" afterPath="$PROJECT_DIR$/.idea/vagrant.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/database_setup.py" afterPath="$PROJECT_DIR$/oauth/database_setup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/project.py" afterPath="$PROJECT_DIR$/oauth/project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/login.html" afterPath="$PROJECT_DIR$/oauth/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/.idea/untitled1.iml" afterPath="$PROJECT_DIR$/project/.idea/untitled1.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,25 +122,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database_setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth/database_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oauth/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2793">
-              <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+            <state relative-caret-position="1862">
+              <caret line="318" column="38" lean-forward="false" selection-start-line="318" selection-start-column="38" selection-end-line="318" selection-end-column="38" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
-                <element signature="e#6087#6308#0" expanded="false" />
-                <element signature="e#6427#6540#0" expanded="false" />
-                <element signature="e#6601#6713#0" expanded="false" />
-                <element signature="e#6809#6951#0" expanded="false" />
-                <element signature="e#7063#7408#0" expanded="false" />
-                <element signature="e#7546#7987#0" expanded="false" />
-                <element signature="e#8129#8567#0" expanded="false" />
-                <element signature="e#8726#8964#0" expanded="false" />
-                <element signature="e#9109#9704#0" expanded="false" />
-                <element signature="e#9866#10712#0" expanded="false" />
-                <element signature="e#10878#11321#0" expanded="false" />
-                <element signature="e#11355#11450#0" expanded="false" />
+                <element signature="e#908#1178#0" expanded="false" />
+                <element signature="e#1243#4682#0" expanded="false" />
+                <element signature="e#4735#5948#0" expanded="false" />
+                <element signature="e#6090#6311#0" expanded="false" />
+                <element signature="e#6430#6543#0" expanded="false" />
+                <element signature="e#6604#6716#0" expanded="false" />
+                <element signature="e#6812#6954#0" expanded="false" />
+                <element signature="e#7066#7485#0" expanded="false" />
+                <element signature="e#7623#8138#0" expanded="false" />
+                <element signature="e#8280#8792#0" expanded="false" />
+                <element signature="e#8951#9189#0" expanded="false" />
+                <element signature="e#9334#10003#0" expanded="false" />
+                <element signature="e#10165#11085#0" expanded="false" />
+                <element signature="e#11251#11768#0" expanded="false" />
+                <element signature="e#11802#11897#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -219,6 +232,7 @@
         <option value="$PROJECT_DIR$/oauth/client_secret.json" />
         <option value="$PROJECT_DIR$/oauth/templates/login.html" />
         <option value="$PROJECT_DIR$/oauth/project.py" />
+        <option value="$PROJECT_DIR$/oauth/database_setup.py" />
       </list>
     </option>
   </component>
@@ -295,6 +309,56 @@
           </PATH>
         </subPane>
         <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="C:">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Users">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="theau">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="AppData">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Local">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Programs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Python36-32">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site-packages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -723,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499360830093</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="not even sure that this point, just hating life">
+      <created>1499362616859</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1499362616859</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -778,24 +849,17 @@
     <MESSAGE value="added anit-forgery state token using google api" />
     <MESSAGE value="added client_secrets.json" />
     <MESSAGE value="added client_secret.json removed client_secrets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added client_secret.json removed client_secrets" />
+    <MESSAGE value="not even sure that this point, just hating life" />
+    <option name="LAST_COMMIT_MESSAGE" value="not even sure that this point, just hating life" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nano-backend-projects/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d892875e/272b10ef-ba04-443a-ae42-ef60ebd2db1a/main.menu_item" />
     <entry file="dbDummy://dbtable:/d892875e/272b10ef-ba04-443a-ae42-ef60ebd2db1a/main.restaurant" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/272b10ef-ba04-443a-ae42-ef60ebd2db1a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1072,22 +1136,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="10" lean-forward="true" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+        <state relative-caret-position="1862">
+          <caret line="318" column="38" lean-forward="false" selection-start-line="318" selection-start-column="38" selection-end-line="318" selection-end-column="38" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
-            <element signature="e#6087#6308#0" expanded="false" />
-            <element signature="e#6427#6540#0" expanded="false" />
-            <element signature="e#6601#6713#0" expanded="false" />
-            <element signature="e#6809#6951#0" expanded="false" />
-            <element signature="e#7063#7408#0" expanded="false" />
-            <element signature="e#7546#7987#0" expanded="false" />
-            <element signature="e#8129#8567#0" expanded="false" />
-            <element signature="e#8726#8964#0" expanded="false" />
-            <element signature="e#9109#9704#0" expanded="false" />
-            <element signature="e#9866#10712#0" expanded="false" />
-            <element signature="e#10878#11321#0" expanded="false" />
-            <element signature="e#11355#11450#0" expanded="false" />
+            <element signature="e#908#1178#0" expanded="false" />
+            <element signature="e#1243#4682#0" expanded="false" />
+            <element signature="e#4735#5948#0" expanded="false" />
+            <element signature="e#6090#6311#0" expanded="false" />
+            <element signature="e#6430#6543#0" expanded="false" />
+            <element signature="e#6604#6716#0" expanded="false" />
+            <element signature="e#6812#6954#0" expanded="false" />
+            <element signature="e#7066#7485#0" expanded="false" />
+            <element signature="e#7623#8138#0" expanded="false" />
+            <element signature="e#8280#8792#0" expanded="false" />
+            <element signature="e#8951#9189#0" expanded="false" />
+            <element signature="e#9334#10003#0" expanded="false" />
+            <element signature="e#10165#11085#0" expanded="false" />
+            <element signature="e#11251#11768#0" expanded="false" />
+            <element signature="e#11802#11897#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/248bfeef-dfb3-4b15-b5c7-b57850005380/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth/database_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
