@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vagrant.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/272b10ef-ba04-443a-ae42-ef60ebd2db1a.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nano-backend-projects/Vagrantfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/restaurantmenu.db" afterPath="$PROJECT_DIR$/oauth/restaurantmenu.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oauth/client_secrets.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/project.py" afterPath="$PROJECT_DIR$/oauth/project.py" />
     </list>
@@ -125,14 +121,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oauth/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4838">
-              <caret line="265" column="38" lean-forward="false" selection-start-line="265" selection-start-column="38" selection-end-line="265" selection-end-column="38" />
+            <state relative-caret-position="407">
+              <caret line="267" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_secret.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +163,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>secre</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -187,6 +198,8 @@
         <option value="$PROJECT_DIR$/database_setup.py" />
         <option value="$PROJECT_DIR$/finalProject.py" />
         <option value="$PROJECT_DIR$/oauth/templates/login.html" />
+        <option value="$PROJECT_DIR$/oauth/client_secrets.json" />
+        <option value="$PROJECT_DIR$/oauth/client_secret.json" />
         <option value="$PROJECT_DIR$/oauth/project.py" />
       </list>
     </option>
@@ -720,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499288618057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added client_secrets.json">
+      <created>1499360044583</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499360044583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -772,7 +792,8 @@
     <MESSAGE value="CHANGED A LOT!!!" />
     <MESSAGE value="got oauth repo up and running, ssh should run on first try moving forward." />
     <MESSAGE value="added anit-forgery state token using google api" />
-    <option name="LAST_COMMIT_MESSAGE" value="added anit-forgery state token using google api" />
+    <MESSAGE value="added client_secrets.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added client_secrets.json" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -782,20 +803,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nano-backend-projects/finalProject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/restaurants.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nano-backend-projects/webserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1061,13 +1068,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oauth/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oauth/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4838">
-          <caret line="265" column="38" lean-forward="false" selection-start-line="265" selection-start-column="38" selection-end-line="265" selection-end-column="38" />
+        <state relative-caret-position="407">
+          <caret line="267" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
