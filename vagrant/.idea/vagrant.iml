@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/oauth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/catalog" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.vagrant" />
-      <excludeFolder url="file://$MODULE_DIR$/catalog" />
       <excludeFolder url="file://$MODULE_DIR$/forum" />
       <excludeFolder url="file://$MODULE_DIR$/nano-backend-projects" />
       <excludeFolder url="file://$MODULE_DIR$/templates" />
