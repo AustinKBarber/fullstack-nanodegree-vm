@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="Changed function calls in all templates to reflect the changes to the &#10;database. EX: url_for(showRestaurants) is now 'showCategories', etc...">
+    <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neighborhood/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/catalog/database_setup.py" afterPath="$PROJECT_DIR$/neighborhood/database_setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/catalog.db" afterPath="$PROJECT_DIR$/catalog/catalog.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/static/styles.css" afterPath="$PROJECT_DIR$/catalog/static/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicmenu.html" afterPath="$PROJECT_DIR$/oauth/templates/publicmenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" afterPath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" />
     </list>
@@ -196,117 +199,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/project.py">
+      <file leaf-file-name="database_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neighborhood/database_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3230">
-              <caret line="401" column="47" lean-forward="false" selection-start-line="401" selection-start-column="47" selection-end-line="401" selection-end-column="47" />
+            <state relative-caret-position="798">
+              <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding>
-                <element signature="e#0#84#0" expanded="true" />
-                <element signature="e#899#1169#0" expanded="false" />
-                <element signature="e#915#1007#0" expanded="false" />
-                <element signature="e#1236#3986#0" expanded="false" />
-                <element signature="e#1300#1455#0" expanded="false" />
-                <element signature="e#2088#2499#1" expanded="false" />
-                <element signature="e#2723#2764#0" expanded="false" />
-                <element signature="e#4041#4398#0" expanded="false" />
-                <element signature="e#4463#8084#0" expanded="false" />
-                <element signature="e#4554#4709#0" expanded="false" />
-                <element signature="e#4784#5022#0" expanded="false" />
-                <element signature="e#5061#5246#0" expanded="false" />
-                <element signature="e#5622#5770#0" expanded="false" />
-                <element signature="e#5927#6115#0" expanded="false" />
-                <element signature="e#6224#6464#0" expanded="false" />
-                <element signature="e#6655#6853#0" expanded="false" />
-                <element signature="e#8087#8110#0" expanded="false" />
-                <element signature="e#8153#8414#0" expanded="false" />
-                <element signature="e#8686#8760#0" expanded="false" />
-                <element signature="e#8818#9586#0" expanded="false" />
-                <element signature="e#8941#9112#0" expanded="false" />
-                <element signature="e#9341#9583#0" expanded="false" />
-                <element signature="e#9719#9938#0" expanded="false" />
-                <element signature="e#10267#10374#0" expanded="false" />
-                <element signature="e#10466#10736#0" expanded="false" />
-                <element signature="e#11416#12164#0" expanded="false" />
-                <element signature="e#13829#14769#0" expanded="false" />
-                <element signature="e#14279#14684#0" expanded="false" />
-                <element signature="e#17338#17440#0" expanded="false" />
-                <element signature="e#17505#17564#0" expanded="false" />
-                <element signature="e#17991#18086#0" expanded="false" />
-                <marker date="1500753512779" expanded="false" signature="10736:10751" ph="..." />
-                <marker date="1500753512779" expanded="false" signature="11289:11307" ph="..." />
-                <marker date="1500753512779" expanded="false" signature="12164:12175" ph="..." />
-                <marker date="1500753512779" expanded="false" signature="16181:16201" ph="..." />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/templates/header.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/neighborhood/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="93" lean-forward="false" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/static/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newitem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/templates/newitem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/templates/items.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="49" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edititem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/templates/edititem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editmenuitem.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth/templates/editmenuitem.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -364,8 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/templates/restaurant.html" />
-        <option value="$PROJECT_DIR$/project/finalProject.py" />
         <option value="$PROJECT_DIR$/project.py" />
         <option value="$PROJECT_DIR$/templates/editRestaurant.html" />
         <option value="$PROJECT_DIR$/templates/menu.html" />
@@ -415,6 +322,8 @@
         <option value="$PROJECT_DIR$/catalog/templates/newitem.html" />
         <option value="$PROJECT_DIR$/catalog/templates/items.html" />
         <option value="$PROJECT_DIR$/catalog/static/styles.css" />
+        <option value="$PROJECT_DIR$/neighborhood/index.html" />
+        <option value="$PROJECT_DIR$/neighborhood/database_setup.py" />
       </list>
     </option>
   </component>
@@ -579,7 +488,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="catalog">
+            <PATH_ELEMENT USER_OBJECT="neighborhood">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -601,10 +510,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="static">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -619,15 +524,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theau\fullstack\vagrant\catalog" />
+      <recent name="C:\Users\theau\fullstack\vagrant\catalog\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theau\fullstack\vagrant\neighborhood" />
       <recent name="C:\Users\theau\fullstack\vagrant\nano-backend-projects" />
       <recent name="C:\Users\theau\fullstack\vagrant" />
       <recent name="C:\Users\theau\fullstack\vagrant\project" />
       <recent name="C:\Users\theau\fullstack\vagrant\forum" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\theau\fullstack\vagrant\catalog" />
-      <recent name="C:\Users\theau\fullstack\vagrant\catalog\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1020,7 +926,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500753518183</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changed function calls in all templates to reflect the changes to the &#10;database. EX: url_for(showRestaurants) is now 'showCategories', etc...">
+      <created>1500753945140</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1500753945140</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1034,12 +947,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.48756218" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.48756218" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3564464" sideWeight="0.4904051" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3434453" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23185265" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
@@ -1072,10 +984,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23185265" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3434453" sideWeight="0.48720682" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16364606" sideWeight="0.48756218" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.48756218" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1117,14 +1029,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fe1f2507-1305-4ea9-bb82-e06316a3402c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth/client_secret.json" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/248bfeef-dfb3-4b15-b5c7-b57850005380/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1429,70 +1333,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/database_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oauth/templates/editmenuitem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/templates/edititem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="401" column="47" lean-forward="false" selection-start-line="401" selection-start-column="47" selection-end-line="401" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-            <element signature="e#899#1169#0" expanded="false" />
-            <element signature="e#915#1007#0" expanded="false" />
-            <element signature="e#1236#3986#0" expanded="false" />
-            <element signature="e#1300#1455#0" expanded="false" />
-            <element signature="e#2088#2499#1" expanded="false" />
-            <element signature="e#2723#2764#0" expanded="false" />
-            <element signature="e#4041#4398#0" expanded="false" />
-            <element signature="e#4463#8084#0" expanded="false" />
-            <element signature="e#4554#4709#0" expanded="false" />
-            <element signature="e#4784#5022#0" expanded="false" />
-            <element signature="e#5061#5246#0" expanded="false" />
-            <element signature="e#5622#5770#0" expanded="false" />
-            <element signature="e#5927#6115#0" expanded="false" />
-            <element signature="e#6224#6464#0" expanded="false" />
-            <element signature="e#6655#6853#0" expanded="false" />
-            <element signature="e#8087#8110#0" expanded="false" />
-            <element signature="e#8153#8414#0" expanded="false" />
-            <element signature="e#8686#8760#0" expanded="false" />
-            <element signature="e#8818#9586#0" expanded="false" />
-            <element signature="e#8941#9112#0" expanded="false" />
-            <element signature="e#9341#9583#0" expanded="false" />
-            <element signature="e#9719#9938#0" expanded="false" />
-            <element signature="e#10267#10374#0" expanded="false" />
-            <element signature="e#10466#10736#0" expanded="false" />
-            <element signature="e#11416#12164#0" expanded="false" />
-            <element signature="e#13829#14769#0" expanded="false" />
-            <element signature="e#14279#14684#0" expanded="false" />
-            <element signature="e#17338#17440#0" expanded="false" />
-            <element signature="e#17505#17564#0" expanded="false" />
-            <element signature="e#17991#18086#0" expanded="false" />
-            <marker date="1500753512779" expanded="false" signature="10736:10751" ph="..." />
-            <marker date="1500753512779" expanded="false" signature="11289:11307" ph="..." />
-            <marker date="1500753512779" expanded="false" signature="12164:12175" ph="..." />
-            <marker date="1500753512779" expanded="false" signature="16181:16201" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1512,10 +1357,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/templates/header.html">
+    <entry file="file://$PROJECT_DIR$/catalog/static/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="19">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1528,10 +1373,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/static/styles.css">
+    <entry file="file://$PROJECT_DIR$/catalog/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/51fea448-8bb6-4353-89ab-899544046b47/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/templates/edititem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <marker date="1500753512779" expanded="true" signature="10736:10751" ph="..." />
+            <marker date="1500753512779" expanded="true" signature="11289:11307" ph="..." />
+            <marker date="1500753512779" expanded="true" signature="12164:12175" ph="..." />
+            <marker date="1500753512779" expanded="true" signature="16181:16201" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neighborhood/database_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neighborhood/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>

@@ -20,12 +20,14 @@ class User(Base):
 
 
 
-class Category(Base):
-    __tablename__ = 'category'
+class Locations(Base):
+    __tablename__ = 'locations'
 
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
     user_id = Column(Integer, ForeignKey('user.id'))
+    lat = Column(Integer)
+    long = Column(Integer)
     user = relationship(User)
 
     @property
@@ -37,31 +39,6 @@ class Category(Base):
         }
 
 
-class CategoryItem(Base):
-    __tablename__ = 'category_item'
-
-    name = Column(String(80), nullable=False)
-    id = Column(Integer, primary_key=True)
-    description = Column(String(250))
-    price = Column(String(8))
-    type = Column(String(250))
-    category_id = Column(Integer, ForeignKey('category.id'))
-    category = relationship(Category)
-    user_id = Column(Integer, ForeignKey('user.id'))
-    user = relationship(User)
-
-    @property
-    def serialize(self):
-        """Return object data in easily serializeable format"""
-        return {
-            'name': self.name,
-            'description': self.description,
-            'id': self.id,
-            'price': self.price,
-            'type': self.type,
-        }
-
-
-engine = create_engine('sqlite:///catalog.db')
+engine = create_engine('sqlite:///neighborhood.db')
 
 Base.metadata.create_all(engine)
