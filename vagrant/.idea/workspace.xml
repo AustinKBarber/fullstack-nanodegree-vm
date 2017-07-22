@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/static/blank_user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/static/top-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catalog/static/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/16925493-0f4e-4fdf-9bdc-f4bdf26f4447/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/fe1f2507-1305-4ea9-bb82-e06316a3402c/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/catalog.db" afterPath="$PROJECT_DIR$/catalog/catalog.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/restaurantmenuwithusers.db" afterPath="$PROJECT_DIR$/oauth/restaurantmenuwithusers.db" />
+    <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="Changed function calls in all templates to reflect the changes to the &#10;database. EX: url_for(showRestaurants) is now 'showCategories', etc...">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/project.py" afterPath="$PROJECT_DIR$/catalog/project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/categories.html" afterPath="$PROJECT_DIR$/catalog/templates/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/editCategory.html" afterPath="$PROJECT_DIR$/catalog/templates/editCategory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/edititem.html" afterPath="$PROJECT_DIR$/catalog/templates/edititem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/items.html" afterPath="$PROJECT_DIR$/catalog/templates/items.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/login.html" afterPath="$PROJECT_DIR$/catalog/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/templates/newitem.html" afterPath="$PROJECT_DIR$/catalog/templates/newitem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/editmenuitem.html" afterPath="$PROJECT_DIR$/oauth/templates/editmenuitem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/static/styles.css" afterPath="$PROJECT_DIR$/catalog/static/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicmenu.html" afterPath="$PROJECT_DIR$/oauth/templates/publicmenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" afterPath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" />
     </list>
@@ -224,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/catalog/project.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3230">
-              <caret line="400" column="126" lean-forward="false" selection-start-line="400" selection-start-column="126" selection-end-line="400" selection-end-column="126" />
+              <caret line="401" column="47" lean-forward="false" selection-start-line="401" selection-start-column="47" selection-end-line="401" selection-end-column="47" />
               <folding>
                 <element signature="e#0#84#0" expanded="true" />
                 <element signature="e#899#1169#0" expanded="false" />
@@ -254,13 +230,13 @@
                 <element signature="e#11416#12164#0" expanded="false" />
                 <element signature="e#13829#14769#0" expanded="false" />
                 <element signature="e#14279#14684#0" expanded="false" />
-                <element signature="e#17307#17409#0" expanded="false" />
-                <element signature="e#17474#17533#0" expanded="false" />
-                <element signature="e#17960#18055#0" expanded="false" />
-                <marker date="1500391128052" expanded="false" signature="10736:10751" ph="..." />
-                <marker date="1500391128052" expanded="false" signature="11289:11307" ph="..." />
-                <marker date="1500391128052" expanded="false" signature="12164:12175" ph="..." />
-                <marker date="1500391128052" expanded="false" signature="16150:16170" ph="..." />
+                <element signature="e#17338#17440#0" expanded="false" />
+                <element signature="e#17505#17564#0" expanded="false" />
+                <element signature="e#17991#18086#0" expanded="false" />
+                <marker date="1500753512779" expanded="false" signature="10736:10751" ph="..." />
+                <marker date="1500753512779" expanded="false" signature="11289:11307" ph="..." />
+                <marker date="1500753512779" expanded="false" signature="12164:12175" ph="..." />
+                <marker date="1500753512779" expanded="false" signature="16181:16201" ph="..." />
               </folding>
             </state>
           </provider>
@@ -289,8 +265,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/static/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -604,28 +580,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="catalog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vagrant">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vagrant">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="catalog">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -1059,7 +1013,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499974929284</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed function calls in all templates to reflect the changes to the &#10;database. EX: url_for(showRestaurants) is now 'showCategories', etc...">
+      <created>1500753518183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1500753518183</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1083,7 +1044,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23185265" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3434453" sideWeight="0.48720682" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3434453" sideWeight="0.48720682" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2585288" sideWeight="0.5124378" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32782516" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1494,7 +1455,7 @@
     <entry file="file://$PROJECT_DIR$/catalog/project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3230">
-          <caret line="400" column="126" lean-forward="false" selection-start-line="400" selection-start-column="126" selection-end-line="400" selection-end-column="126" />
+          <caret line="401" column="47" lean-forward="false" selection-start-line="401" selection-start-column="47" selection-end-line="401" selection-end-column="47" />
           <folding>
             <element signature="e#0#84#0" expanded="true" />
             <element signature="e#899#1169#0" expanded="false" />
@@ -1524,13 +1485,13 @@
             <element signature="e#11416#12164#0" expanded="false" />
             <element signature="e#13829#14769#0" expanded="false" />
             <element signature="e#14279#14684#0" expanded="false" />
-            <element signature="e#17307#17409#0" expanded="false" />
-            <element signature="e#17474#17533#0" expanded="false" />
-            <element signature="e#17960#18055#0" expanded="false" />
-            <marker date="1500391128052" expanded="false" signature="10736:10751" ph="..." />
-            <marker date="1500391128052" expanded="false" signature="11289:11307" ph="..." />
-            <marker date="1500391128052" expanded="false" signature="12164:12175" ph="..." />
-            <marker date="1500391128052" expanded="false" signature="16150:16170" ph="..." />
+            <element signature="e#17338#17440#0" expanded="false" />
+            <element signature="e#17505#17564#0" expanded="false" />
+            <element signature="e#17991#18086#0" expanded="false" />
+            <marker date="1500753512779" expanded="false" signature="10736:10751" ph="..." />
+            <marker date="1500753512779" expanded="false" signature="11289:11307" ph="..." />
+            <marker date="1500753512779" expanded="false" signature="12164:12175" ph="..." />
+            <marker date="1500753512779" expanded="false" signature="16181:16201" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1569,8 +1530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/static/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
