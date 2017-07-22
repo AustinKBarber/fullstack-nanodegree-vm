@@ -268,7 +268,7 @@ def categoryMenuJSON(category_id):
 
 
 @app.route('/category/<int:category_id>/items/<int:category_items_id>/JSON')
-def categoryItemJSON(category_items_id, category_id):
+def categoryItemJSON(category_id, category_items_id):
     Category_Item = session.query(CategoryItem).filter_by(id=category_id).one()
     return jsonify(Category_Item=Category_Item.serialize)
 
@@ -279,7 +279,6 @@ def categoriesJSON():
     return jsonify(categories=[c.serialize for c in categories])
 
 
-# TODO rename .html
 # Show all categories
 @app.route('/')
 @app.route('/category/')
@@ -404,12 +403,12 @@ def editCategoryItem(category_id, category_items_id):
 
 
 # Delete a menu item
-@app.route('/category/<int:category_id>/items/<int:categoryitem_id>/delete', methods=['GET', 'POST'])
-def deleteCategoryItem(category_id, categoryitem_id):
+@app.route('/category/<int:category_id>/items/<int:category_items_id>/delete', methods=['GET', 'POST'])
+def deleteCategoryItem(category_id, category_items_id):
     if 'username' not in login_session:
         return redirect('/login')
     category = session.query(Category).filter_by(id=category_id).one()
-    itemToDelete = session.query(CategoryItem).filter_by(id=categoryitem_id).one()
+    itemToDelete = session.query(CategoryItem).filter_by(id=category_items_id).one()
     if login_session['user_id'] != category.user_id:
         return "<script>function myFunction() {alert('You are not authorized to delete menu items to this restaurant. Please create your own restaurant in order to delete items.');}</script><body onload='myFunction()''>"
     if request.method == 'POST':

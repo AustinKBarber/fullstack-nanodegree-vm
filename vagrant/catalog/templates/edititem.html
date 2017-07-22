@@ -1,3 +1,5 @@
+{#TODO figure out how to fix the for-loop below. Pretty sure it's the root of the build error after creating a new item#}
+
 {% extends "main.html" %}
 {% block content %}
     {% include "header.html" %}
@@ -15,41 +17,41 @@
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" maxlength="100" class="form-control" name="name"
-                           value="{{ category_item.name }}">
+                           value="{{ item.name }}">
 
                     <label for="description">Description:</label>
                     <textarea class="form-control" maxlength="250" rows="3"
-                              name="description">{{ category_item.description }}</textarea>
+                              name="description">{{ item.description }}</textarea>
 
                     <label for="price">Price:</label>
                     <div class="input-group">
                         <div class="input-group-addon">$</div>
                         <input type="text" maxlength="10" class="form-control" name="price"
-                               value="{{ category_item.price }}">
+                               value="{{ item.price }}">
                     </div>
-                    <label for="course">Course:</label>
+                    <label for="type">Course:</label>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="course" id="course1" value="Appetizer"
-                                   {% if category_item.type == 'Appetizer' %}checked{% endif %}>Appetizer
+                            <input type="radio" name="type" id="type1" value="Appetizer"
+                                   {% if item.type == 'Appetizer' %}checked{% endif %}>Appetizer
                         </label>
                     </div>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="course" id="course2" value="Entree"
-                                   {% if category_item.type == 'Entree' %}checked{% endif %}>Entree
+                            <input type="radio" name="type" id="type2" value="Entree"
+                                   {% if item.type == 'Entree' %}checked{% endif %}>Entree
                         </label>
                     </div>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="course" id="course3" value="Dessert"
-                                   {% if category_item.type == 'Dessert' %}checked{% endif %}>Dessert
+                            <input type="radio" name="type" id="type3" value="Dessert"
+                                   {% if item.type == 'Dessert' %}checked{% endif %}>Dessert
                         </label>
                     </div>
                     <div class="radio">
                         <label>
-                            <input type="radio" name="course" id="course4" value="Beverage"
-                                   {% if category_item.type =='Beverage' %}checked{% endif %}>Beverage
+                            <input type="radio" name="type" id="type4" value="Beverage"
+                                   {% if item.type =='Beverage' %}checked{% endif %}>Beverage
                         </label>
                     </div>
                     <button type="submit" class="btn btn-default" id="submit" type="submit">
