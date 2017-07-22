@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d617c7c4-1c29-4c73-863d-747716fcc447" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/neighborhood/neighborhood/project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vagrant.iml" afterPath="$PROJECT_DIR$/.idea/vagrant.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neighborhood/database_setup.py" afterPath="$PROJECT_DIR$/neighborhood/database_setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neighborhood/index.html" afterPath="$PROJECT_DIR$/neighborhood/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicmenu.html" afterPath="$PROJECT_DIR$/oauth/templates/publicmenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" afterPath="$PROJECT_DIR$/oauth/templates/publicrestaurants.html" />
     </list>
@@ -967,7 +963,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500761149336</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="create neighborhood react app, and neighborhood directory.">
+      <created>1500763959792</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1500763959792</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
