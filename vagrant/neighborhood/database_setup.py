@@ -18,8 +18,6 @@ class User(Base):
 
 # ^^^^NO Change!^^^^
 
-
-
 class Locations(Base):
     __tablename__ = 'locations'
 
