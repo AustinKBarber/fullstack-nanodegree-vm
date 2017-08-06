@@ -14,45 +14,43 @@ import requests
 
 app = Flask(__name__)
 
-CLIENT_ID = json.loads(
-    open('client_secrets.json', 'r').read())['web']['client_id']
+
 APPLICATION_NAME = "Category Menu App"
 
 # Connect to Database and create database session
-engine = create_engine('sqlite:///catalog.db')
+engine = create_engine('sqlite:///locations.db')
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
 
-@app.route('/')
-@app.route('/location/')
-def showLocations():
-    locations = session.query(Locations).order_by(asc(Locations.name))
-    return render_template('index.html', locations=locations)
+# @app.route('/locations/')
+# def showLocations():
+#     locations = session.query(Locations).order_by(asc(Locations.name))
+#     return render_template('index.html', locations=locations)
     # if 'username' not in login_session:
     #     return render_template('publiccategories.html', categories=categories)
     # else:
     #     return render_template('index.html', locations=locations)
 
+@app.route('/')
+def renderShit():
+    return render_template('index.html')
 
 # Create a new location
-@app.route('/category/new/', methods=['GET', 'POST'])
+
+@app.route('/locations', methods=['GET', 'POST'])
 def newLocation():
-    # if 'username' not in login_session:
-    #     return redirect('/login')
-    # if request.method == 'POST':
-    newLocation = Locations(name=request.form['name'], lat=request.form['lat'], long=request.form['long'])
+    newLocation = Locations(name=request.form['name'], lat=request.form['lat'], long=request.form['long'],
+                            user_id=request.form['user_id'])
     session.add(newLocation)
     flash('New location %s Successfully Created' % newLocation.name)
     session.commit()
-    return redirect(url_for('showCategories'))
 
 
 # else:
 #    return render_template('newCategory.html')
-
 
 
 if __name__ == '__main__':

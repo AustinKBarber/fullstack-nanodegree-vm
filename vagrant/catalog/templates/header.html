@@ -1,15 +1,18 @@
-<div class="row top-menu">
-    <div class="col-md-6">
-        <a href="{{ url_for('showCategories') }}">
-            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All categories
-        </a>
-    </div>
-    <div class="col-md-6 text-right">
-        {% if 'username' not in session %}
-            <a href="{{ url_for('showLogin') }}">Click Here to Login </a>
-        {% else %}
-            <a href="{{ url_for('disconnect') }}">Logout </a>
-        {% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    </div>
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/FezVrasta/bootstrap-material-design/dist/dist/bootstrap-material-design.min.css">
+</head>
+<body>
+<div class="container">
+    {% block content %}
+    {% endblock %}
 </div>
+</body>
+</html>

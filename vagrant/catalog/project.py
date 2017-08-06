@@ -329,12 +329,18 @@ def editCategory(category_id):
 def deleteCategory(category_id):
     categoryToDelete = session.query(
         Category).filter_by(id=category_id).one()
+    # TODO instantiate 'itemsToDelete' so the POST below will also delete items in category
     if 'username' not in login_session:
         return redirect('/login')
     if categoryToDelete.user_id != login_session['user_id']:
         return "<script>function myFunction() {alert('You are not authorized to delete this restaurant. Please create your own restaurant in order to delete.');}</script><body onload='myFunction()''>"
     if request.method == 'POST':
         session.delete(categoryToDelete)
+
+        # TODO session.delete(itemsToDelete) multi-line comment below:
+        """basically if an item has the category_id of a category that is being deleted it
+        also gets deleted."""
+
         flash('%s Successfully Deleted' % categoryToDelete.name)
         session.commit()
         return redirect(url_for('showCategories', category_id=category_id))

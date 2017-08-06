@@ -21,10 +21,11 @@
 </head>
 <body>
 <div>
-    <form action="/locations" method="post">
+    <form action="/locations" method="post" id="submitForm">
         <input type="text" name="name">
         <input type="text" name="lat">
         <input type="text" name="long">
+        <input type="text" name="user_id">
         <button type="submit">submit!</button>
     </form>
 </div>
@@ -44,6 +45,10 @@
         });
     }
 
+    var form = document.getElementById('submitForm');
+    form.on('submit', function (event) {
+        event.preventDefault();
+    });
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANPr67OcC5KA4aKf9-8kzzuQjzDEAXR8M&callback=initMap"
         async defer></script>
