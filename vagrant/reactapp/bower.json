@@ -1,0 +1,17 @@
+{
+  "name": "reactapp",
+  "homepage": "https://github.com/AustinKBarber/fullstack-nanodegree-vm",
+  "authors": [
+    "Austin Barber <theaustin1989@gmail.com>"
+  ],
+  "description": "an app created with react that hopefully doesn't suck.",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
